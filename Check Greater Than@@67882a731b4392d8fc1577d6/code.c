@@ -7,5 +7,8 @@ void main(){
         print("true");
     }
     else
-    printf("false");
+    {
+        printf("false");
+    }
+    
 }
