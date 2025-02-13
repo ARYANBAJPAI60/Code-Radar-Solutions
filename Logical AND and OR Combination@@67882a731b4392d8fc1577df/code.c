@@ -1,8 +1,14 @@
 #include <stdio.h>
-void main(){
-    int n;
-    scanf("%d",&n);
-    printf("Hexadecimal: %X\n",n);
-    printf("Octal: %o",n);
-
+void main()
+{
+    int a,b;
+    scanf("%d %d",&a,&b);
+    if((a>0 && b<0) || (a==0 && b==0))
+    {
+        printf("True");
+    }
+    else
+    {
+        printf("False");
+    }
 }
